@@ -1,0 +1,142 @@
+.contribution{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.contributions_content{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+
+.contributions_search{
+    display: flex;
+    gap: 12px;
+    form{
+        display: flex;
+        flex-direction: column;
+        input{
+            border: 2px solid #456159;
+            height: 30px;
+        }
+    }
+}
+
+.background_white{
+    background-color: white;
+}
+
+.contributions_tableau{
+    
+    font-size: 18px;
+
+
+    p{
+        margin: 0px;
+    }
+    align-items: center;
+    table{
+        border-spacing: 0px;
+        width: 789px;
+    }
+
+    .contributions_tableau_header{
+        background-color: #456159;
+        color: white;
+
+    }
+
+    th{
+        padding: 10px;
+    }
+    td{
+        padding: 20px 15px;
+    }
+    
+}
+
+.contribution_account{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    img{
+        width: 40px;
+    }
+}
+
+
+
+.contribution_payment_confime, .contribution_payment_attente, .contribution_payment_refuse{
+    text-align: center;
+    padding: 4px;
+    border-radius: 5px;
+    
+}
+
+.contribution_payment_confime{
+    background-color: #D0EDD0;
+    border: 3px solid var(--color-green-light);
+}
+.contribution_payment_attente{
+    background-color: #EDECD0;
+    border: 3px solid #E2E453;
+}
+.contribution_payment_refuse{
+    background-color: #EDD0D0;
+    border: 3px solid var(--color-red);
+}
+
+
+
+.contribution_statistique{
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 18px;
+    height: fit-content;
+    background-color: #456159;
+    color: white;
+    padding: 30px;
+    box-shadow: 0px 4px 50px 3px rgba(0, 0, 0, 0.1);
+    p{
+        margin: 0px;
+    }
+}
+
+.contribution_stat_info{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.contribution_stat_legende{
+    display: flex;
+    gap: 12px;
+    .legende_cercle{
+        height: 20px;
+        width: 20px;
+        display: block;
+        border-radius: 100px;
+        
+    }
+
+    align-items: center;
+    .contributeur_legende_item{
+        display: flex;
+        gap: 12px;
+        p{
+            margin: 0px;
+        }
+    }
+
+    #cercle_contributeur_blanc{
+        background-color: var(--color-green-light);
+    }
+    #cercle_contributeur_vert{
+        background-color: #E2E453;
+    }
+    #cercle_contributeur_vert_fonce{
+        background-color: var(--color-red);
+    }
+}

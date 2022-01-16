@@ -1,0 +1,26 @@
+.site-container{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+}
+aside{
+    background-color: var(--color-dark-green);
+
+    @media screen and (max-width: $breakpoint-md){
+        display: none;
+    }
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+
+
+html.menu-open {
+    aside {
+     display: flex;
+    }
+  }
+  

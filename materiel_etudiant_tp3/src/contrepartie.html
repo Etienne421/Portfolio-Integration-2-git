@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <!-- META -->
+        <title>À renommer</title>
+
+        <link rel="stylesheet" href="styles/main.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+        
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/assets/favicon/site.webmanifest">
+        <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
+
+
+        <script src="scripts/main.js" defer></script>
+    </head>
+
+    <body>
+        <div class="site-container">
+            <aside>
+                <nav>
+                    <a href="index.html">
+                        <div class="nav_top">
+                            <img src="assets/images/Logo_svg.svg" alt="">
+                            <h3>PartyMoney</h3>
+                        </div>
+                    </a>
+                    <ul>
+                        <li class="nav_tab">
+                            <img class="nav_tab_img_logo" src="assets/images/money_svg.svg" alt="">
+                            <h4>Campagne</h4>
+                            <img class="nav_tab_img_arrow" src="assets/images/arrow_down2_svg.svg" alt="">
+                        </li>
+                        <li class="nav_tab">
+                            <img class="nav_tab_img_logo"  src="assets/images/commnunity_svg.svg" alt="">
+                            <h4>Communauté</h4>
+                            <img class="nav_tab_img_arrow" src="assets/images/arrow_down2_svg.svg" alt="">
+                        </li>
+                        <li class="nav_tab">
+                            <img class="nav_tab_img_logo" src="assets/images/wallet_svg.svg" alt="">
+                            <h4>Porte-Feuille</h4>
+                            <img class="nav_tab_img_arrow" src="assets/images/arrow_down2_svg.svg" alt="">
+                        </li>
+                        <li class="nav_tab">
+                            <img class="nav_tab_img_logo" src="assets/images/writing_svg.svg" alt="">
+                            <h4>Contenu</h4>
+                            <img class="nav_tab_img_arrow" src="assets/images/arrow_down2_svg.svg" alt="">
+                        </li>
+                        <li class="nav_tab">
+                            <img class="nav_tab_img_logo" src="assets/images/form_svg.svg" alt="">
+                            <h4>Formulaire</h4>
+                            <img class="nav_tab_img_arrow" src="assets/images/arrow_down2_svg.svg" alt="">
+                        </li>
+                        <li class="nav_tab" id="nav_tab_no_bg">
+                            <img class="nav_tab_img_logo" src="assets/images/setting_svg.svg" alt="">
+                            <h4>Paramêtre</h4>
+                            <img class="nav_tab_img_arrow" src="assets/images/arrow_down2_svg.svg" alt="">
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <section class="content">
+                <div class="content-header">
+                    <button class="hamburger js-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                     </button>
+                    <div class="header_search">
+                        <img src="assets/images/Loop.svg" alt="">
+                        <div class="header_search_box">
+                            <form>
+                                <input type="text" placeholder="Rechercher">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="header_gestion">
+                        <img src="assets/images/bell_svg.svg" alt="">
+                        <div class="header_account">
+                            <img src="assets/images/account_svg.svg" alt="">
+                            <p>Phillipe Créateur</p>
+                        </div>
+                    </div>
+                </div>
+                <main>
+                    <div class="wrapper">
+                        <div class="contribution">
+                            <h2>Contributions</h2>
+                            <div class="contributions_search">
+                                <img src="assets/images/Loop_green.svg" alt="">
+                                <form action="">
+                                    <label for="profile">Profile</label>
+                                    <input type="text"  id="profile" name="profile">
+                                </form>
+                                <form action="date">
+                                    <label for="date">Date</label>
+                                    <input type="text"  id="date" name="date">
+                                </form>
+                            </div>
+                            <div class="contributions_content">
+                                <div class="contributions_tableau">
+                                    <table>
+                                        <tr class="contributions_tableau_header">
+                                            <th class="contributions_tableau_head">
+                                                <p>Date <span><img src="assets/images/arrow_down4_svg.svg" alt=""></span></p>
+                                                
+                                                
+                                            </th>
+                                            <th class="contributions_tableau_head">
+                                                <p>Profile  <span><img src="assets/images/arrow_down4_svg.svg" alt=""></span></p>
+                                            </th>
+                                            <th class="contributions_tableau_head">
+                                                <p>Contrepartie  <span><img src="assets/images/arrow_down4_svg.svg" alt=""></span></p>
+                                            </th>
+                                            <th class="contributions_tableau_head">
+                                                <p>Montant <span><img src="assets/images/arrow_down4_svg.svg" alt=""></span></p>
+                                            </th>
+                                            <th class="contributions_tableau_head">
+                                                <p>Payment  <span><img src="assets/images/arrow_down4_svg.svg" alt=""></span></p>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td><p>10/10/2021</p></td>
+                                            <td>
+                                                <div class="contribution_account">
+                                                    <img src="assets/images/account_svg.svg" alt="">
+                                                    <p>Phillipe Créateur</p>
+                                                </div>
+                                            </td>
+                                            <td><p>Aucun</p></td>
+                                            <td><p><strong>50$</strong></p></td>
+                                            <td>
+                                                <div class="contribution_payment_confime">
+                                                    <p>Paiment Confirmé</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="background_white">
+                                            <td> <p>10/10/2021</p></td>
+                                            <td>
+                                                <div class="contribution_account">
+                                                    <img src="assets/images/account_svg.svg" alt="">
+                                                    <p>Phillipe Créateur</p>
+                                                </div>
+                                            </td>
+                                            <td><p>Aucun</p></td>
+                                            <td><p><strong>50$</strong></p>
+                                            </td>
+                                            <td>
+                                                <div class="contribution_payment_attente">
+                                                    <p>Paiment en Attente</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><p>10/10/2021</p></td>
+                                            <td>
+                                                <div class="contribution_account">
+                                                    <img src="assets/images/account_svg.svg" alt="">
+                                                    <p>Phillipe Créateur</p>
+                                                </div>
+                                            </td>
+                                            <td><p>Aucun</p></td>
+                                            <td><p><strong>50$</strong></p></td>
+                                            <td>
+                                                <div class="contribution_payment_refuse">
+                                                    <p>Paiment Confirmé</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="background_white">
+                                            <td><p>10/10/2021</p></td>
+                                            <td>
+                                                <div class="contribution_account">
+                                                    <img src="assets/images/account_svg.svg" alt="">
+                                                    <p>Phillipe Créateur</p>
+                                                </div>
+                                            </td>
+                                            <td><p>Aucun</p></td>
+                                            <td><p><strong>50$</strong></p></td>
+                                            <td>
+                                                <div class="contribution_payment_confime">
+                                                    <p>Paiment Confirmé</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><p>10/10/2021</p></td>
+                                            <td>
+                                                <div class="contribution_account">
+                                                    <img src="assets/images/account_svg.svg" alt="">
+                                                    <p>Phillipe Créateur</p>
+                                                </div>
+                                            </td>
+                                            <td><p>Aucun</p></td>
+                                            <td><p><strong>50$</strong></p></td>
+                                            <td>
+                                                <div class="contribution_payment_confime">
+                                                    <p>Paiment Confirmé</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="background_white">
+                                            <td><p>10/10/2021</p></td>
+                                            <td>
+                                                <div class="contribution_account">
+                                                    <img src="assets/images/account_svg.svg" alt="">
+                                                    <p>Phillipe Créateur</p>
+                                                </div>
+                                            </td>
+                                            <td><p>Aucun</p></td>
+                                            <td><p><strong>50$</strong></p></td>
+                                            <td>
+                                                <div class="contribution_payment_confime">
+                                                    <p>Paiment Confirmé</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><p>10/10/2021</p></td>
+                                            <td>
+                                                <div class="contribution_account">
+                                                    <img src="assets/images/account_svg.svg" alt="">
+                                                    <p>Phillipe Créateur</p>
+                                                </div>
+                                            </td>
+                                            <td><p>Aucun</p></td>
+                                            <td><p><strong>50$</strong></p></td>
+                                            <td>
+                                                <div class="contribution_payment_confime">
+                                                    <p>Paiment Confirmé</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="background_white">
+                                            <td><p>10/10/2021</p></td>
+                                            <td>
+                                                <div class="contribution_account">
+                                                    <img src="assets/images/account_svg.svg" alt="">
+                                                    <p>Phillipe Créateur</p>
+                                                </div>
+                                            </td>
+                                            <td><p>Aucun</p></td>
+                                            <td><p><strong>50$</strong></p></td>
+                                            <td>
+                                                <div class="contribution_payment_confime">
+                                                    <p>Paiment Confirmé</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><p>10/10/2021</p></td>
+                                            <td>
+                                                <div class="contribution_account">
+                                                    <img src="assets/images/account_svg.svg" alt="">
+                                                    <p>Phillipe Créateur</p>
+                                                </div>
+                                            </td>
+                                            <td><p>Aucun</p></td>
+                                            <td><p><strong>50$</strong></p></td>
+                                            <td>
+                                                <div class="contribution_payment_confime">
+                                                    <p>Paiment Confirmé</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="background_white">
+                                            <td><p>10/10/2021</p></td>
+                                            <td>
+                                                <div class="contribution_account">
+                                                    <img src="assets/images/account_svg.svg" alt="">
+                                                    <p>Phillipe Créateur</p>
+                                                </div>
+                                            </td>
+                                            <td><p>Aucun</p></td>
+                                            <td><p><strong>50$</strong></p></td>
+                                            <td>
+                                                <div class="contribution_payment_confime">
+                                                    <p>Paiment Confirmé</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><p>10/10/2021</p></td>
+                                            <td>
+                                                <div class="contribution_account">
+                                                    <img src="assets/images/account_svg.svg" alt="">
+                                                    <p>Phillipe Créateur</p>
+                                                </div>
+                                            </td>
+                                            <td><p>Aucun</p></td>
+                                            <td><p><strong>50$</strong></p></td>
+                                            <td>
+                                                <div class="contribution_payment_confime">
+                                                    <p>Paiment Confirmé</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="background_white">
+                                            <td><p>10/10/2021</p></td>
+                                            <td>
+                                                <div class="contribution_account">
+                                                    <img src="assets/images/account_svg.svg" alt="">
+                                                    <p>Phillipe Créateur</p>
+                                                </div>
+                                            </td>
+                                            <td><p>Aucun</p></td>
+                                            <td><p><strong>50$</strong></p></td>
+                                            <td>
+                                                <div class="contribution_payment_confime">
+                                                    <p>Paiment Confirmé</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="contribution_statistique">
+                                    
+                                    <div class="contribution_stat_diagramme">
+                                        <h5>Montant Totale</h5>
+                                        <img src="" alt="">
+                                        <div class="contribution_stat_legende">
+                                            <img src="assets/images/diagramme_montant_total.png" alt="">
+                                            <div class="contributeur_legende">
+                                                <div class="contributeur_legende_item">
+                                                    <span class="legende_cercle" id="cercle_contributeur_blanc"></span>
+                                                    <p>80% Paiment Confimré</p>
+                                                </div>
+                                                <div class="contributeur_legende_item">
+                                                    <span class="legende_cercle" id="cercle_contributeur_vert"></span>
+                                                    <p>10% Paiment en Attente</p>
+                                                </div>
+                                                <div class="contributeur_legende_item">
+                                                    <span class="legende_cercle" id="cercle_contributeur_vert_fonce"></span>
+                                                    <p>10% Paiment refusé</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="contribution_stat_info">
+                                        <h5>Montant Totale: </h5>
+                                        <p>450$</p>
+                                    </div>
+                                    <div class="contribution_stat_info">
+                                        <h5>Contributeur Totale: </h5>
+                                        <p>450$</p>
+                                    </div>
+                                    <div class="contribution_stat_liste">
+                                        <h5>Nombre Contrepartie</h5>
+                                        <ul>
+                                            <li>1x Montre: 4</li>
+                                            <li>2x Montre: 8</li>
+                                            <li>Super kit: 2</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </section>
+        </div>
+
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="footer_top">
+                    <div class="footer_nav">
+                        <h4>À propos</h4>
+                        <ul>
+                            <li><a href="#">À propos de PartyMoney</a></li>
+                            <li><a href="#">Notre charte</a></li>
+                            <li><a href="#">Statistiques</a></li>
+                            <li><a href="#">Presses</a></li>
+                            <li><a href="#">Carrières</a></li>
+                            <li><a href="#">Politique relative aux cookies</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_nav">
+                        <h4>Assistance</h4>
+                        <ul>
+                            <li><a href="#">Centre d'aide</a></li>
+                            <li><a href="#">Nous contacter</a></li>
+                            <li><a href="#">Créer un compte</a></li>
+                            <li><a href="#">Vérification de l'identité</a></li>
+                            <li><a href="#">Informations sur le compte</a></li>
+                            <li><a href="#">Méthodes de paiement</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_nav">
+                        <h4>Politique</h4>
+                        <ul>
+                            <li><a href="#">Confiance et sécurité</a></li>
+                            <li><a href="#">Conditions d'utilisations</a></li>
+                            <li><a href="#">Politique de confidentialité</a></li>
+                            <li><a href="#">Politique en matière de cookies</a></li>
+                            <li><a href="#">Déclaration d'accessibilité</a></li>
+                            <li><a href="#">Avis de consentement</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="footer_bottom">
+                    <img src="assets/images/Logo.svg" alt="Logo" height="100px"/>
+                    <div class="footer_plus">
+                        <div class="footer_nav-socials">
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="assets/images/icon-facebook.svg" alt="Facebook" /></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="assets/images/icon-linkedin.svg" alt="Linked in" /></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="assets/images/icon-twitter.svg" alt="Twitter" /></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="assets/images/icon-instagram.svg" alt="Instagram" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <p class="copyright">PartyMoney, PBC © 2021</p>
+                        <p class="copyright">Illustration créée par upklyak - fr.freepik.com</p>
+                    </div>
+                </div>
+    
+    
+            </div>
+        </footer>
+    </body>
+</html>
